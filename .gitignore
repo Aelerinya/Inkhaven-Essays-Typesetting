@@ -1,0 +1,21 @@
+# Typst output files
+*.pdf
+
+# Preview/screenshot images
+*preview*.png
+*preview*.jpg
+*screenshot*.png
+*screenshot*.jpg
+header*.png
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Don't push the sequences stuff
+Highlights from the Sequences/
