@@ -1,0 +1,19 @@
+# Typst output files
+*.pdf
+
+# Preview/screenshot images
+*preview*.png
+*preview*.jpg
+*screenshot*.png
+*screenshot*.jpg
+header*.png
+
+# Temporary files
+*.tmp
+*.bak
+*~
+transportation-constraint-raw.html
+
+# OS files
+.DS_Store
+Thumbs.db
