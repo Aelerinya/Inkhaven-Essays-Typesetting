@@ -2,10 +2,55 @@
 // 24" × 36" poster (portrait orientation)
 // Clean modern style with ETBembo font
 
+// State management for custom footnotes
+#let footnote-list = state("footnotes", ())
+
+// Custom footnote function
+#let custom-footnote(url) = context {
+  let count = counter("custom-footnotes").get().at(0) + 1
+  counter("custom-footnotes").step()
+
+  footnote-list.update(list => {
+    list.push((number: count, url: url))
+    list
+  })
+
+  super[#count]
+}
+
 #set page(
   width: 24in,
   height: 36in,
-  margin: (x: 0.75in, y: 0.75in),
+  margin: (x: 0.75in, top: 0.75in, bottom: 4in),
+  footer: context {
+    let notes = footnote-list.get()
+
+    if notes.len() > 0 [
+      #line(length: 100%, stroke: 0.5pt + rgb("#666666"))
+      #v(0.3em)
+
+      #set text(size: 8pt)
+      #set par(spacing: 0.4em, leading: 0.5em)
+
+      // Manually split footnotes into two equal columns
+      #let mid = calc.ceil(notes.len() / 2)
+      #let col1 = notes.slice(0, mid)
+      #let col2 = notes.slice(mid)
+
+      #grid(
+        columns: (1fr, 1fr),
+        gutter: 1.2em,
+        // Left column
+        [#for note in col1 [
+          #super[#note.number] #note.url \
+        ]],
+        // Right column
+        [#for note in col2 [
+          #super[#note.number] #note.url \
+        ]]
+      )
+    ]
+  }
 )
 
 #set text(
@@ -62,7 +107,7 @@
 // Emphasized text
 #show emph: it => text(style: "italic", it.body)
 
-// Links - convert to footnotes using built-in footnote
+// Links - convert to custom footnotes
 #show link: it => {
   let url = if type(it.dest) == str {
     it.dest
@@ -70,8 +115,8 @@
     str(it.dest)
   }
 
-  // Display the link text with a footnote containing the URL
-  [#it.body#footnote[#url]]
+  // Display the link text with a custom footnote containing the URL
+  [#it.body#custom-footnote(url)]
 }
 
 // Reduce spacing for list items
