@@ -1,3 +1,5 @@
+#import "pyramid.typ": pyramid
+
 *I.*
 
 Allan Crossman calls parapsychology #link("http://lesswrong.com/lw/1ib/parapsychology_the_control_group_for_science/")[the control group for science].
@@ -191,7 +193,8 @@ Heck, just look at _philosophy_.
 This is the principle behind the Pyramid of Scientific Evidence. The lowest level is your personal opinions, no matter how ironclad you think the logic behind them is. Just above that is expert opinion, because no matter how expert someone is they're still only human. Above that is anecdotal evidence and case studies, because even though you're finally getting out of people's heads, it's still possible for the content of people's heads to influence which cases they pay attention to. At each level, we distill away more and more of the human element, until presumably at the top the dross of humanity has been purged away entirely and we end up with pure unadulterated reality.
 
 #align(center)[
-  #image("se_pyramid.png", width: 70%)
+  #pyramid()
+  #v(0.5em)
   #text(size: 10pt, style: "italic")[The Pyramid of Scientific Evidence]
 ]
 
