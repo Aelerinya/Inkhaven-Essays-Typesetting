@@ -209,15 +209,13 @@ The highest level of the Pyramid of Scientific Evidence is meta-analysis. But a 
 How do I know it's crap? Well, I use my personal judgment. How do I know my personal judgment is right? Well, a smart well-credentialed person like James Coyne agrees with me. How do I know James Coyne is smart? I can think of lots of cases where he's been right before. How do I know those count? Well, John Ioannides has published a lot of studies analyzing the problems with science, and confirmed that cases like the ones Coyne talks about are pretty common. Why can I believe Ioannides' studies? Well, there have been good meta-analyses of them. But how do I know if those meta-analyses are crap or not? Well...
 
 #align(center)[
-  #image("se_ouroboros.png", width: 70%)
+  #image("new_ouroboros.png", width: 70%)
   #text(size: 10pt, style: "italic")[The Ouroboros of Scientific Evidence]
 ]
 
 Science! YOU WERE THE CHOSEN ONE! It was said that you would destroy reliance on biased experts, not join them! Bring balance to epistemology, not leave it in darkness!
 
 #align(center)[
-  #image("obi_wan.png", width: 70%)
+  #image("obi_wan.png", width: 90%)
   #text(size: 10pt, style: "italic")[I LOVED YOU!!!!]
 ]
-
-*Edit:* #link("http://andrewgelman.com/2013/08/25/a-new-bem-theory/")[Conspiracy theory] by Andrew Gelman
