@@ -19,7 +19,7 @@
 #set par(
   justify: true,
   leading: 0.65em,
-  spacing: 0.7em,
+  spacing: 1.2em,
 )
 
 // Styling for Roman numeral sections (I., II., etc.)
@@ -62,9 +62,21 @@
 // Emphasized text
 #show emph: it => text(style: "italic", it.body)
 
-// Links - subtle blue color
+// Links - convert to footnotes using built-in footnote
 #show link: it => {
-  set text(fill: rgb("#0066cc"))
+  let url = if type(it.dest) == str {
+    it.dest
+  } else {
+    str(it.dest)
+  }
+
+  // Display the link text with a footnote containing the URL
+  [#it.body#footnote[#url]]
+}
+
+// Reduce spacing for list items
+#show enum: it => {
+  set par(spacing: 0.8em)
   it
 }
 

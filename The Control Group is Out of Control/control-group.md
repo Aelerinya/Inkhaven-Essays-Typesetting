@@ -212,5 +212,3 @@ How do I know it's crap? Well, I use my personal judgment. How do I know my pers
 Science! YOU WERE THE CHOSEN ONE! It was said that you would destroy reliance on biased experts, not join them! Bring balance to epistemology, not leave it in darkness!
 
 [IMAGE: se_obiwan.png - I LOVED YOU!!!!]
-
-**Edit:** [Conspiracy theory](http://andrewgelman.com/2013/08/25/a-new-bem-theory/) by Andrew Gelman

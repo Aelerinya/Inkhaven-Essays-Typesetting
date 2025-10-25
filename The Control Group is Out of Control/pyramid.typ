@@ -19,21 +19,21 @@
       rgb("#BF8EB1"), // Plum/light purple
     )
 
-    // Pyramid dimensions (scaled to match original)
-    let base = 6.0
+    // Pyramid dimensions (scaled to full column width)
+    let base = 9.0
     let top = 0.0  // Point at top
-    let h = 4.5
+    let h = 6.75
     let step = h / 8.0
 
     // Draw pyramid layers from bottom to top (6 levels with labels inside pyramid)
     // Each entry: (label, text-size)
     let levels = (
-      ([Personal Opinion], 10pt),
-      ([Expert Opinion], 10pt),
-      ([Case Reports], 9pt),
-      ([Case Series], 9pt),
-      ([Case Control Studies], 7pt),
-      ([Cohort Studies], 7pt),
+      ([Personal Opinion], 15pt),
+      ([Expert Opinion], 15pt),
+      ([Case Reports], 13pt),
+      ([Case Series], 13pt),
+      ([Case Control Studies], 11pt),
+      ([Cohort Studies], 11pt),
     )
 
     for i in range(8) {
@@ -79,17 +79,17 @@
     }
 
     // Add arrow and label for "Randomized Controlled Double Blind Studies" on LEFT
-    let rct_level_y = 6 * step - 0.4  // Level 7 (RCT level - second from top)
+    let rct_level_y = 6 * step - 0.6  // Level 7 (RCT level - second from top)
     line(
-      (-1.1, rct_level_y + 0.75),
-      (-0.4, 6.5 * step),
+      (-1.7, rct_level_y + 1.1),
+      (-0.6, 6.5 * step),
       mark: (end: ">", fill: rgb("#000000")),
       stroke: (paint: rgb("#000000"), thickness: 2pt)
     )
     content(
-      (-1, rct_level_y + 0.5),
+      (-1.5, rct_level_y + 0.75),
       text(
-        size: 7pt,
+        size: 10pt,
         weight: "bold",
         fill: rgb("#0033cc"),
         align(center)[Randomized\ Controlled Double\ Blind Studies]
@@ -98,17 +98,17 @@
     )
 
     // Add arrow and label for "Systematic Reviews and Meta-analyses" on RIGHT
-    let meta_level_y = 7 * step +0.3  // Top level
+    let meta_level_y = 7 * step + 0.45  // Top level
     line(
-      (0.9, meta_level_y),
-      (0.09, 7.5 * step -0.1),
+      (1.35, meta_level_y),
+      (0.13, 7.5 * step - 0.15),
       mark: (end: ">", fill: rgb("#000000")),
       stroke: (paint: rgb("#000000"), thickness: 2pt)
     )
     content(
-      (1, meta_level_y ),
+      (1.5, meta_level_y),
       text(
-        size: 8pt,
+        size: 12pt,
         weight: "bold",
         fill: rgb("#0033cc"),
         align(center)[Systematic Reviews\ and Meta-analyses]
