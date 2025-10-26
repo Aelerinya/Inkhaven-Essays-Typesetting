@@ -1,0 +1,259 @@
+CITATION REFERENCE LIST FOR "THE CONTROL GROUP IS OUT OF CONTROL"
+Complete data collected - will format for final output later
+
+========================================
+
+1.
+URL: http://lesswrong.com/lw/1ib/parapsychology_the_control_group_for_science/
+Author: Allan Crossman
+Title: "Parapsychology: the control group for science"
+Publication: LessWrong
+Date: Dec 5, 2009
+Link text in essay: "the control group for science"
+
+========================================
+
+2.
+URL: http://blogs.nature.com/news/2012/11/psychologists-do-some-soul-searching.html
+Author: Brian Owens
+Posted on behalf of: Ed Yong
+Title: "Psychologists do some soul-searching"
+Publication: Nature News Blog
+Date: Nov 8, 2012, 16:29 BST
+Category: Lab life
+Link text in essay: "crisis of replication"
+
+========================================
+
+3.
+URL: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/
+Redirect: https://pmc.ncbi.nlm.nih.gov/articles/PMC1182327/
+Author: John P. A. Ioannidis
+Title: "Why most published research findings are false"
+Publication: PLoS Medicine
+Date: Aug 2005
+Volume/Issue: 2(8):e124
+DOI: 10.1371/journal.pmed.0020124
+Epub: Aug 30, 2005
+PMID: 16060722
+PMCID: PMC1182327
+Link text in essay: [1] in list of intelligent voices
+
+========================================
+
+4.
+URL: http://lesswrong.com/lw/ajj/how_to_fix_science/
+Author: lukeprog
+Title: "How to Fix Science"
+Publication: LessWrong
+Date: Mar 6, 2012
+Link text in essay: [2] in list of intelligent voices
+
+========================================
+
+5.
+URL: http://www.newyorker.com/reporting/2010/12/13/101213fa_fact_lehrer
+Author: Jonah Lehrer
+Title: "The Truth Wears Off"
+Publication: The New Yorker
+Date: Dec 5, 2010
+Link text in essay: [3] in list of intelligent voices
+
+========================================
+
+6.
+URL: http://blogs.plos.org/mindthebrain/author/jcyone/
+Wayback: https://web.archive.org/web/20140204015539/http://blogs.plos.org/mindthebrain/author/jcyone/
+Author: James C. Coyne, Ph.D.
+Full title: Professor of Psychology in the Department of Psychiatry, Director, Behavioral Oncology Research of the Abramson Cancer Center, Senior Fellow at Leonard Davis Institute for Health Economics, Perelman Medical School, University of Pennsylvania; Professor of Health Psychology, University of Groningen Medical Center (UMCG), Netherlands
+Publication: PLOS Mind the Brain blog
+Note: Author page, not specific article
+Link text in essay: [4] in list of intelligent voices
+
+========================================
+
+7.
+URL: http://www.haas.berkeley.edu/groups/online_marketing/facultyCV/papers/nelson_false-positive.pdf
+Wayback: https://web.archive.org/web/20160316113746/http://www.haas.berkeley.edu/groups/online_marketing/facultyCV/papers/nelson_false-positive.pdf
+Authors: Joseph P. Simmons, Leif D. Nelson, Uri Simonsohn
+Title: "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant"
+Publication: Psychological Science
+Date: Published online Oct 17, 2011
+DOI: 10.1177/0956797611417632
+Link text in essay: [5] in list of intelligent voices
+
+========================================
+
+8.
+URL: https://f1000research.com/articles/4-1188/v2
+Authors: Daryl Bem, Patrizio E. Tressoldi, Thomas Rabeyron, Michael Duggan
+Title: "Feeling the future: A meta-analysis of 90 experiments on the anomalous anticipation of random future events"
+Publication: F1000Research
+Year: 2016
+Volume: 4:1188
+Version: version 2
+Peer review: 2 approved
+DOI: 10.12688/f1000research.7177.2
+Link text in essay: "what now, motherfuckers?"
+
+========================================
+
+9.
+URL: http://www.talyarkoni.org/blog/2011/01/10/the-psychology-of-parapsychology-or-why-good-researchers-publishing-good-articles-in-good-journals-can-still-get-it-totally-wrong/
+Author: Tal Yarkoni
+Title: "The psychology of parapsychology, or why good researchers publishing good articles in good journals can still get it totally wrong"
+Publication: talyarkoni.org (personal blog)
+Date: Jan 10, 2011
+Link text in essay: "very very good" (criticism of Bem)
+
+========================================
+
+10.
+URL: http://news.discovery.com/human/psychology/controversial-esp-study-fails-yet-again-120912.htm
+Wayback: https://web.archive.org/web/20130601094715/http://news.discovery.com/human/psychology/controversial-esp-study-fails-yet-again-120912.htm
+Author: Benjamin Radford
+Title: "Controversial ESP Study Fails Yet Again"
+Publication: Discovery News
+Date: Sep 12, 2012, 03:07 PM ET
+Link text in essay: "failed replication several times"
+
+========================================
+
+11.
+URL: http://lesswrong.com/lw/ii/conservation_of_expected_evidence/
+Author: Eliezer Yudkowsky
+Title: "Conservation of Expected Evidence"
+Publication: LessWrong
+Date: Aug 13, 2007
+Link text in essay: "conservation of expected evidence"
+
+========================================
+
+12.
+URL: http://lesswrong.com/lw/3be/confidence_levels_inside_and_outside_an_argument/
+Author: Scott Alexander
+Title: "Confidence levels inside and outside an argument"
+Publication: LessWrong
+Date: Dec 15, 2010
+Link text in essay: "Confidence Levels Inside And Outside An Argument"
+
+========================================
+
+13.
+URL: http://www.richardwiseman.com/resources/staring1.pdf
+Authors: Richard Wiseman, Marilyn Schlitz
+Title: "Experimenter effects and the remote detection of staring"
+Publication: Parapsychology
+Publisher: Routledge
+First Published: 2005
+Pages: 421-431
+Note: Reprinted 2017
+Link text in essay: "Experimenter Effects And The Remote Detection Of Staring"
+
+========================================
+
+14.
+URL: http://en.wikipedia.org/wiki/Nominative_determinism
+Permanent link: https://en.wikipedia.org/w/index.php?title=Nominative_determinism&oldid=1315759116
+Title: "Nominative determinism"
+Author: Wikipedia contributors
+Publisher: Wikipedia, The Free Encyclopedia
+Date of last revision: Oct 8, 2025, 13:43 UTC
+Date retrieved: Oct 25, 2025, 23:56 UTC
+Page Version ID: 1315759116
+Link text in essay: "nominative determinism"
+
+========================================
+
+15.
+URL: http://jeksite.org/psi/jp76.pdf
+Authors: James E. Kennedy, Judith L. Taddonio
+Title: "Experimenter effects in parapsychological research"
+Publication: Journal of Parapsychology
+Volume/Issue: 40.1
+Year: 1976
+Pages: 1-33
+Link text in essay: "list ten similar studies"
+
+========================================
+
+16.
+URL: http://criticalscience.com/researcher-allegiance-psychotherapy-research-bias.html
+Author: Ben
+Title: "I believe in CBT and my research shows it works! Therapy allegiance in psychotherapy research"
+Publication: criticalscience.com
+Date: Apr 15, 2013
+Context: About Munder (2013) meta-meta-analysis
+Link text in essay: "Munder (2013)"
+
+========================================
+
+17.
+URL: http://www.npr.org/blogs/health/2012/09/18/161159263/teachers-expectations-can-influence-how-students-perform
+Author: Alix Spiegel
+Title: "Teachers' Expectations Can Influence How Students Perform"
+Publication: NPR Morning Edition (Shots - Health News)
+Date: Sep 17, 2012, 3:36 AM ET
+Link text in essay: "a famous story"
+
+========================================
+
+18.
+URL: http://www.lscp.net/persons/dupoux/teaching/JOURNEE_AUTOMNE_CogMaster_2011-12/readings_deontology/Rosenthal_1994_interpersonal_expectancy_effects_a_review.pdf
+Author: Robert Rosenthal
+Title: "Interpersonal expectancy effects: A 30-year perspective"
+Publication: Current Directions in Psychological Science
+Volume/Issue: 3.6
+Year: 1994
+Pages: 176-179
+Link text in essay: "then investigated three hundred forty five different studies"
+
+========================================
+
+19.
+URL: http://en.wikipedia.org/wiki/Clever_Hans
+Title: "Clever Hans"
+Author: Wikipedia contributors
+Publisher: Wikipedia, The Free Encyclopedia
+Date of last revision: Sep 29, 2025
+Date retrieved: Oct 26, 2025
+Link text in essay: "the story of Clever Hans"
+
+========================================
+
+20.
+URL: http://www.richardwiseman.com/BemReplications.shtml
+Authors: Richard Wiseman, Caroline Watt
+Title/Description: "Replication Registry for Bem's 'Feeling the Future' experiments"
+Publication: richardwiseman.com
+Institutions: University of Hertfordshire (Wiseman), University of Edinburgh (Watt)
+Note: Registry page for pre-registering replications
+Update: As of Apr 23, received details of 5 replications
+Link text in essay: "a pre-register site for Bem replications"
+
+========================================
+
+21.
+URL: http://www.koestler-parapsychology.psy.ed.ac.uk/TrialRegistry.html
+Wayback: https://web.archive.org/web/20130306034606/https://www.koestler-parapsychology.psy.ed.ac.uk/TrialRegistry.html
+Title: "Registry for Parapsychological Experiments"
+Organization: Koestler Parapsychology Unit
+Institution: University of Edinburgh
+Contact: Caroline Watt
+Advisor: Jim Kennedy
+Updated: Nov 29, 2012
+Link text in essay: "a separate pre-register for parapsychology trials in general"
+
+========================================
+
+22.
+URL: http://www.psychologytoday.com/blog/the-skeptical-sleuth/201112/editor-should-have-caught-bias-and-flaws-in-review-mental-health-ef
+Author: James C. Coyne, Ph.D.
+Title: "Editor Should Have Caught Bias and Flaws in Review of Mental Health Effects of Abortion"
+Blog: The Skeptical Sleuth
+Publication: Psychology Today
+Date: Dec 5, 2011
+Subtitle: "Was publication of a flawed anti-abortion review deliberate?"
+Link text in essay: "more like this" (example of crap meta-analyses)
+
+========================================

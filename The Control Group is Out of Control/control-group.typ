@@ -2,26 +2,14 @@
 // 24" × 36" poster (portrait orientation)
 // Clean modern style with ETBembo font
 
-// State management for custom footnotes
-#let footnote-list = state("footnotes", ())
-
-// Custom footnote function
-#let custom-footnote(url) = context {
-  let count = counter("custom-footnotes").get().at(0) + 1
-  counter("custom-footnotes").step()
-
-  footnote-list.update(list => {
-    list.push((number: count, url: url))
-    list
-  })
-
-  super[#count]
-}
+// Import custom footnote system
+#import "footnote.typ": footnote-list, custom-footnote
 
 #set page(
   width: 24in,
   height: 36in,
   margin: (x: 0.75in, top: 0.75in, bottom: 4in),
+  footer-descent: 20%,
   footer: context {
     let notes = footnote-list.get()
 
@@ -29,7 +17,7 @@
       #line(length: 100%, stroke: 0.5pt + rgb("#666666"))
       #v(0.3em)
 
-      #set text(size: 8pt)
+      #set text(size: 10pt)
       #set par(spacing: 0.4em, leading: 0.5em)
 
       // Manually split footnotes into two equal columns
@@ -42,11 +30,11 @@
         gutter: 1.2em,
         // Left column
         [#for note in col1 [
-          #super[#note.number] #note.url \
+          #super[#note.number] #note.citation \
         ]],
         // Right column
         [#for note in col2 [
-          #super[#note.number] #note.url \
+          #super[#note.number] #note.citation \
         ]]
       )
     ]
@@ -55,7 +43,7 @@
 
 #set text(
   font: "ETBembo",
-  size: 12pt,
+  size: 12.5pt,
   fill: rgb("#1a1a1a"),
   lang: "en",
   hyphenate: true,
@@ -86,7 +74,7 @@
   // Check if it's a Roman numeral section marker
   if body-text != none and body-text.len() <= 6 and body-text.match(regex("^[IVX]+\\.?$")) != none {
     set text(size: 15pt, weight: "bold")
-    block(above: 1.2em, below: 0.6em, it)
+    block(above: 3em, below: 0.6em, it)
   } else {
     text(weight: "bold", it.body)
   }
@@ -107,17 +95,8 @@
 // Emphasized text
 #show emph: it => text(style: "italic", it.body)
 
-// Links - convert to custom footnotes
-#show link: it => {
-  let url = if type(it.dest) == str {
-    it.dest
-  } else {
-    str(it.dest)
-  }
-
-  // Display the link text with a custom footnote containing the URL
-  [#it.body#custom-footnote(url)]
-}
+// NOTE: Links are now manually converted to custom-footnote calls in the content file
+// This show rule is disabled - citations are embedded directly in content
 
 // Reduce spacing for list items
 #show enum: it => {
@@ -132,7 +111,7 @@
 )[
   #set align(center)
   #set text(size: 48pt, weight: "regular", font: "ETBembo")
-  #block(below: 0.4em)[The Control Group Is Out Of Control]
+  #block(below: 0.6em)[The Control Group Is Out Of Control]
 
   #set text(size: 16pt, weight: "regular")
   #block(below: 0.3em)[
