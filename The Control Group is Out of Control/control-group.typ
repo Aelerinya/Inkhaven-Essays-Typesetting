@@ -8,8 +8,8 @@
 #set page(
   width: 24in,
   height: 36in,
-  margin: (x: 0.75in, top: 0.75in, bottom: 4in),
-  footer-descent: 20%,
+  margin: (x: 0.75in, top: 0.75in, bottom: 3.8in),
+  footer-descent: 15%,
   footer: context {
     let notes = footnote-list.get()
 
@@ -43,7 +43,7 @@
 
 #set text(
   font: "ETBembo",
-  size: 12.5pt,
+  size: 12.1pt,
   fill: rgb("#1a1a1a"),
   lang: "en",
   hyphenate: true,
@@ -72,9 +72,9 @@
   }
 
   // Check if it's a Roman numeral section marker
-  if body-text != none and body-text.len() <= 6 and body-text.match(regex("^[IVX]+\\.?$")) != none {
+  if body-text != none and body-text.len() <= 6 and body-text.match(regex("^[IVX]+\\.?$")) != none  {
     set text(size: 15pt, weight: "bold")
-    block(above: 3em, below: 0.6em, it)
+    block(above: if body-text != "I." { 2em } else { 0em }, below: 0.6em, it)
   } else {
     text(weight: "bold", it.body)
   }
@@ -111,7 +111,7 @@
 )[
   #set align(center)
   #set text(size: 48pt, weight: "regular", font: "ETBembo")
-  #block(below: 0.6em)[The Control Group Is Out Of Control]
+  #block(below: 0.4em)[The Control Group Is Out Of Control]
 
   #set text(size: 16pt, weight: "regular")
   #block(below: 0.3em)[
